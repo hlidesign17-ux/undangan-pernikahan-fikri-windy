@@ -1,0 +1,554 @@
+{
+  "sections": [
+    {
+      "id": "section1",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s1-subtext",
+          "text": "kamu diundang ke pernikahan kami",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "13px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-down",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s1-title",
+          "text": "Fikri <span class=\"accent-red\">&</span> Windy",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "42px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "zoom-in",
+            "delay": 400
+          }
+        },
+        {
+          "id": "s1-badge",
+          "text": "lebih baik bersama",
+          "transformX": 0,
+          "transformY": -250,
+          "rotate": -41,
+          "style": {
+            "fontSize": "22px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#D32F2F"
+          },
+          "animation": {
+            "type": "fade-left",
+            "delay": 600
+          }
+        },
+        {
+          "id": "s1-footer",
+          "text": "Kepada Yth. Bapak/Ibu/Saudara/i",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 800
+          }
+        }
+      ],
+      "icons": [
+        {
+          "id": "s1-icon-heart-1",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "pulse",
+            "delay": 900
+          }
+        },
+        {
+          "id": "s1-icon-heart-2",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "pulse",
+            "delay": 1100
+          }
+        }
+      ]
+    },
+    {
+      "id": "section2",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s2-header",
+          "text": "dengan penuh syukur",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "13px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-down",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s2-body",
+          "text": "Dengan memohon rahmat Tuhan, kami bermaksud menikah. Kehadiran dan doamu akan membuat hari itu jauh lebih bahagia.",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "13px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 400
+          }
+        },
+        {
+          "id": "s2-quote",
+          "text": "“Dan di antara tanda-tanda kebesaran-Nya, Dia menciptakan pasangan untukmu agar kamu merasa tenteram.”",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "14px",
+            "fontFamily": "'Playfair Display', serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 600
+          }
+        }
+      ],
+      "icons": [
+        {
+          "id": "s2-icon-heart",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "bounce",
+            "delay": 700
+          }
+        }
+      ]
+    },
+    {
+      "id": "section3",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s3-sub",
+          "text": "dua orang, satu cerita",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-down",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s3-main",
+          "text": "Mempelai",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "36px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "zoom-in",
+            "delay": 300
+          }
+        },
+        {
+          "id": "s3-tag",
+          "text": "si dia",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "22px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#D32F2F"
+          },
+          "animation": {
+            "type": "fade-right",
+            "delay": 450
+          }
+        },
+        {
+          "id": "s3-name",
+          "text": "Elang Prakoso",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "32px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 600
+          }
+        },
+        {
+          "id": "s3-parent",
+          "text": "putra dari<br><strong>Bapak Bambang Prakoso & Ibu Sri Lestari</strong>",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 750
+          }
+        },
+        {
+          "id": "s3-btn",
+          "type": "button",
+          "text": " @elangprakoso",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#FFFFFF"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 900
+          }
+        }
+      ],
+      "icons": [
+        {
+          "id": "s3-icon-heart",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "pulse",
+            "delay": 500
+          }
+        }
+      ]
+    },
+    {
+      "id": "section4",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s4-amp",
+          "text": "&",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "48px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#D32F2F"
+          },
+          "animation": {
+            "type": "zoom-in",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s4-badge",
+          "text": "si cantik",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "22px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#D32F2F"
+          },
+          "animation": {
+            "type": "fade-left",
+            "delay": 350
+          }
+        },
+        {
+          "id": "s4-name",
+          "text": "Laila Anindita",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "32px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 500
+          }
+        },
+        {
+          "id": "s4-parent",
+          "text": "putri dari<br><strong>Bapak Hadi Anindito & Ibu Ratna Sari</strong>",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 650
+          }
+        },
+        {
+          "id": "s4-btn",
+          "type": "button",
+          "text": " @laila.anindita",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#FFFFFF"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 800
+          }
+        }
+      ],
+      "icons": [
+        {
+          "id": "s4-icon-heart",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "pulse",
+            "delay": 400
+          }
+        }
+      ]
+    },
+    {
+      "id": "section5",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s5-sub",
+          "text": "detail hari bahagia kami",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-down",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s5-title",
+          "text": "Tanggal & Tempat",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "36px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "zoom-in",
+            "delay": 350
+          }
+        },
+        {
+          "id": "s5-date",
+          "type": "info_item",
+          "icon": "📅",
+          "text": "28.02.2028",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "14px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-right",
+            "delay": 500
+          }
+        },
+        {
+          "id": "s5-time",
+          "type": "info_item",
+          "icon": "⏰",
+          "text": "15:00 WIB",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "14px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-right",
+            "delay": 650
+          }
+        },
+        {
+          "id": "s5-loc",
+          "type": "info_item",
+          "icon": "📍",
+          "text": "<strong>VILLA MAWAR</strong><br>Jl. Bukit Indah No. 8, Bogor",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "14px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-right",
+            "delay": 800
+          }
+        },
+        {
+          "id": "s5-map",
+          "type": "button",
+          "text": "📍 BUKA PETA",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#FFFFFF"
+          },
+          "animation": {
+            "type": "fade-up",
+            "delay": 950
+          }
+        }
+      ],
+      "icons": []
+    },
+    {
+      "id": "section6",
+      "bgBreathe": true,
+      "breatheDuration": 12,
+      "content": [
+        {
+          "id": "s6-sub",
+          "text": "momen kami",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "12px",
+            "fontFamily": "'Plus Jakarta Sans', sans-serif",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "fade-down",
+            "delay": 200
+          }
+        },
+        {
+          "id": "s6-title",
+          "text": "Galeri",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "style": {
+            "fontSize": "36px",
+            "fontFamily": "'Kaushan Script', cursive",
+            "color": "#1A1A1A"
+          },
+          "animation": {
+            "type": "zoom-in",
+            "delay": 350
+          }
+        }
+      ],
+      "icons": [
+        {
+          "id": "s6-icon-heart",
+          "symbol": "♥",
+          "transformX": 0,
+          "transformY": 0,
+          "rotate": 0,
+          "color": "#D32F2F",
+          "animation": {
+            "type": "pulse",
+            "delay": 500
+          }
+        }
+      ]
+    }
+  ]
+}
