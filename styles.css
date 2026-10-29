@@ -83,7 +83,7 @@ body {
   scroll-snap-stop: always;
 }
 
-/* BACKGROUND LAYER (HARDWARE ACCELERATED) */
+/* BACKGROUND LAYER (EFEK SAAT SCROLL MASUK LAYAR) */
 .wedding-section::before {
   content: "";
   position: absolute;
@@ -96,10 +96,11 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
 
+  /* Kondisi Awal Sebelum Scroll Masuk */
   opacity: 0;
-  transform: scale(1.08) translateZ(0);
+  transform: scale(1.15) translateZ(0);
   transition:
-    transform 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 1.4s cubic-bezier(0.16, 1, 0.3, 1),
     opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform, opacity;
 }
@@ -123,6 +124,7 @@ body {
   background-image: url("section6.png");
 }
 
+/* Kondisi Saat Seksyen Terlihat di Layar (Scroll Reveal) */
 .wedding-section.bg-in-view::before {
   opacity: 1;
   transform: scale(1) translateZ(0);
@@ -141,8 +143,8 @@ body {
   }
 }
 
-/* KELAS AKTIF UNTUK EFEK BREATHE BACKGROUND */
-.wedding-section.bg-breathe-active::before {
+/* KELAS AKTIF BERNAFAS (DITAMBAHKAN SAAT BREATHE DIKONTROL DARI JSON) */
+.wedding-section.bg-in-view.bg-breathe-active::before {
   animation: bgBreatheLoop var(--breathe-duration, 12s) ease-in-out infinite !important;
 }
 

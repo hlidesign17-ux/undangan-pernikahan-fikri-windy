@@ -179,7 +179,7 @@
           "id": "s3-sub",
           "text": "dua orang, satu cerita",
           "transformX": 0,
-          "transformY": -26,
+          "transformY": -33,
           "rotate": 0,
           "style": {
             "fontSize": "22px",
@@ -195,7 +195,7 @@
           "id": "s3-main",
           "text": "Mempelai Pria",
           "transformX": 0,
-          "transformY": -39,
+          "transformY": -47,
           "rotate": 0,
           "style": {
             "fontSize": "36px",
@@ -210,8 +210,8 @@
         {
           "id": "s3-tag",
           "text": "Pak Muk",
-          "transformX": -136,
-          "transformY": -397,
+          "transformX": 132,
+          "transformY": -324,
           "rotate": 0,
           "style": {
             "fontSize": "22px",
@@ -227,7 +227,7 @@
           "id": "s3-name",
           "text": "Fikri",
           "transformX": 124,
-          "transformY": -381,
+          "transformY": -337,
           "rotate": 0,
           "style": {
             "fontSize": "32px",
@@ -433,7 +433,7 @@
           "icon": "<svg class=\"doodle-icon\" viewBox=\"0 0 24 24\"><path d=\"M19 4h-1V3c0-.6-.4-1-1-1s-1 .4-1 1v1H8V3c0-.6-.4-1-1-1s-1 .4-1 1v1H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h4v4H7v-4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
           "text": "08 November 2026",
           "transformX": 0,
-          "transformY": -109,
+          "transformY": -69,
           "rotate": 0,
           "style": {
             "fontSize": "28px",
@@ -451,7 +451,7 @@
           "icon": "<svg class=\"doodle-icon\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M12 7v5l3 3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
           "text": "08:00 WIB",
           "transformX": 0,
-          "transformY": -102,
+          "transformY": -80,
           "rotate": 0,
           "style": {
             "fontSize": "28px",
@@ -469,7 +469,7 @@
           "icon": "<svg class=\"doodle-icon\" viewBox=\"0 0 24 24\"><path d=\"M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
           "text": "<strong>Perumahan Bakung Citra Lestari</strong><br>Jl. Teratai Blok D No. 1",
           "transformX": 0,
-          "transformY": -102,
+          "transformY": -88,
           "rotate": 0,
           "style": {
             "fontSize": "26px",
@@ -487,7 +487,7 @@
           "url": "https://maps.app.goo.gl/3nP4UUbCwPFpAmsV7",
           "text": "<svg class=\"doodle-icon-btn\" viewBox=\"0 0 24 24\"><path d=\"M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3zM9 3v15M15 6v15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg> Buka Peta",
           "transformX": 0,
-          "transformY": -102,
+          "transformY": -45,
           "rotate": 0,
           "style": {
             "fontSize": "54px",
