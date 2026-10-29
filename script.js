@@ -61,9 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 3. Merender Elemen HTML dari JSON
+  // 3. Merender Elemen HTML dari JSON + Membaca Nama Tamu dari URL
   function renderSections(sections) {
     container.innerHTML = "";
+
+    // AMRIL PARAMETER NAMA TAMU DARI URL (Contoh: ?to=Budi+Santoso)
+    const urlParams = new URLSearchParams(window.location.search);
+    const guestName = urlParams.get("to") || urlParams.get("nama"); // Bisa ?to=... atau ?nama=...
 
     sections.forEach((sec) => {
       const sectionEl = document.createElement("section");
@@ -93,6 +97,18 @@ document.addEventListener("DOMContentLoaded", () => {
             : "";
           const transformStyle = `transform: translate3d(${item.transformX || 0}px, ${item.transformY || 0}px, 0) rotate(${item.rotate || 0}deg); ${fontSizeStyle} ${fontFamilyStyle} ${colorStyle}`;
 
+          // LOGIKA PENGGANTIAN TEKS PENERIMA UNDANGAN
+          let contentText = item.text;
+          if (item.id === "s1-footer") {
+            if (guestName) {
+              // Jika ada nama di URL, tampilkan nama tamu
+              contentText = `Kepada Yth. Bapak/Ibu/Saudara/i<br><strong style="font-size: 1.2em; display: inline-block; margin-top: 4px;">${decodeURIComponent(guestName)}</strong>`;
+            } else {
+              // Jika tidak ada nama di URL (default)
+              contentText = item.text;
+            }
+          }
+
           let elementHtml = "";
 
           if (item.type === "button") {
@@ -100,16 +116,16 @@ document.addEventListener("DOMContentLoaded", () => {
             const targetUrl =
               item.url ||
               (item.id.includes("map") ? "#map" : "https://instagram.com");
-            elementHtml = `<a href="${targetUrl}" target="_blank" class="animated-element ${btnClass}" style="${transformStyle}" ${animAttr}>${item.text}</a>`;
+            elementHtml = `<a href="${targetUrl}" target="_blank" class="animated-element ${btnClass}" style="${transformStyle}" ${animAttr}>${contentText}</a>`;
           } else if (item.type === "info_item") {
             elementHtml = `
               <div class="animated-element info-item" style="${transformStyle}" ${animAttr}>
                 <span class="info-icon">${item.icon}</span>
-                <span>${item.text}</span>
+                <span>${contentText}</span>
               </div>`;
           } else {
             const cssClass = getItemClass(item.id);
-            elementHtml = `<div class="animated-element ${cssClass}" style="${transformStyle}" ${animAttr}>${item.text}</div>`;
+            elementHtml = `<div class="animated-element ${cssClass}" style="${transformStyle}" ${animAttr}>${contentText}</div>`;
           }
 
           if (
