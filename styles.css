@@ -106,22 +106,22 @@ body {
 }
 
 #section1::before {
-  background-image: url("section1.png");
+  background-image: url("section1.jpg");
 }
 #section2::before {
-  background-image: url("section2.png");
+  background-image: url("section2.jpg");
 }
 #section3::before {
-  background-image: url("section3.png");
+  background-image: url("section3.jpg");
 }
 #section4::before {
-  background-image: url("section4.png");
+  background-image: url("section4.jpg");
 }
 #section5::before {
-  background-image: url("section5.png");
+  background-image: url("section5.jpg");
 }
 #section6::before {
-  background-image: url("section6.png");
+  background-image: url("section6.jpg");
 }
 
 /* Kondisi Saat Seksyen Terlihat di Layar (Scroll Reveal) */
