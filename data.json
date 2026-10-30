@@ -511,7 +511,7 @@
           "id": "s6-sub",
           "text": "Momen kami",
           "transformX": 0,
-          "transformY": -18,
+          "transformY": -25,
           "rotate": 0,
           "style": {
             "fontSize": "23px",
@@ -532,7 +532,7 @@
           "style": {
             "fontSize": "36px",
             "fontFamily": "'Kaushan Script', cursive",
-            "color": "#1A1A1A"
+            "color": "#d32f2f"
           },
           "animation": {
             "type": "zoom-in",
